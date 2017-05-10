@@ -89,14 +89,17 @@
         background: $color-salmon-light;
         color: #200200;
         text-transform: uppercase;
-        padding: 0;
+        padding: 0.9em 0 0.9em 4.1em;
         font-size: 0.95em;
-        margin: 0;
+        margin: 0 0 0.2em;
         line-height: 1.5em;
         font-weight: normal;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
         z-index: 1;
-        display: flex;
-        align-items: center;
+        overflow: hidden;
 
         label {
             text-transform: inherit;
