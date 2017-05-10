@@ -1196,7 +1196,7 @@ li.inline:first-child {
 
 @media screen and (min-width: $breakpoint-mobile) {
     label {
-        @include column(2);
+        @include column(1.5);
         padding-top: 1.2em;
 
         .radio_select &,
