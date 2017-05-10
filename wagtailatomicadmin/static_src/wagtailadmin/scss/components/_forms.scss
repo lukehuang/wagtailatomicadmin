@@ -832,7 +832,7 @@ li.focused > .help {
         }
 
         &:before {
-            left: 0.3em;
+            left: 1.2em;
         }
 
         &:after {
@@ -922,6 +922,7 @@ li.focused > .help {
 
 .input {
     clear: both;
+    padding-right: 2em;
 }
 
 // field sizing and alignment

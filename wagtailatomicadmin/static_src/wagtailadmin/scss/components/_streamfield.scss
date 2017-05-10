@@ -23,8 +23,6 @@ li.sequence-member {
     }
 
     &:hover {
-        background-color: $color-input-focus;
-        border-color: darken($color-input-focus, 10%);
 
         .sequence-member-inner {
             > .struct-block > label,
