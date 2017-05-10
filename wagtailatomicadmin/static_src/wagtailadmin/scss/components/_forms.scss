@@ -1231,6 +1231,7 @@ li.inline:first-child {
 
     .field {
         @include row();
+        padding-top: 20px;
     }
 
     .field-content {
