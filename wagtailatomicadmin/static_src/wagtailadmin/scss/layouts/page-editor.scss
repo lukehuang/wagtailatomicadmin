@@ -14,8 +14,6 @@
 
     .breadcrumb {
         margin-bottom: 0.2em;
-        margin-left: auto;
-        margin-right: auto;
     }
 
     .modal .breadcrumb {
@@ -470,6 +468,8 @@ footer .preview {
 @media screen and (min-width: $breakpoint-mobile) {
     .page-editor .breadcrumb {
         margin-top: -1.8em;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .object {
