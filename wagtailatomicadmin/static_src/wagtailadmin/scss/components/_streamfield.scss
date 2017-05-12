@@ -68,6 +68,10 @@ li.sequence-member {
         position: relative;
         padding: 0 1.5em;
         margin: 1.5em 0;
+
+        .input {
+            padding: 0 1em;
+        }
     }
 
     .fields > li {
@@ -118,19 +122,6 @@ li.sequence-member {
     }
 }
 
-
-// This horridly specific selector ensures text inputs, rich text fields and textareas
-// that are direct children of highest level sequence should be borderless and full-width
-.block_field > .field-content > .input > .sequence-container > .sequence-container-inner > .sequence > .sequence-member > .sequence-member-inner {
-    > .widget-text_input input,
-    > .widget-hallo_rich_text_area .richtext,
-    > .widget-textarea textarea {
-        border: 0;
-        padding: 0;
-        background-color: transparent;
-        max-width: 1024px;
-    }
-}
 
 // Controls for ordering and deletion of items in a sequence
 .sequence-controls {
