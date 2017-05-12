@@ -922,7 +922,6 @@ li.focused > .help {
 
 .input {
     clear: both;
-    padding-right: 2em;
 }
 
 // field sizing and alignment
@@ -1236,7 +1235,7 @@ li.inline:first-child {
     }
 
     .field-content {
-        @include column(10, 0);
+        @include column(12, 0);
     }
 
     .field-col {
