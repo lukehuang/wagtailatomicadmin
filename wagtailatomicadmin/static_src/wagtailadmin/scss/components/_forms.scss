@@ -909,8 +909,6 @@ li.focused > .help {
 .fields > li,
 .field-col {
     @include clearfix();
-    padding-top: 0.5em;
-    padding-bottom: 1.2em;
 }
 
 .field-row {

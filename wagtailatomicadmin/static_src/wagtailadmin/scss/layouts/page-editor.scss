@@ -166,6 +166,11 @@
         }
     }
 
+    fieldset {
+        padding-top: 3.2em;
+    }
+
+
     // Special full-width, one-off fields i.e a single text or textarea input
     &.full {
         .object-help {
@@ -238,7 +243,6 @@
     }
 
     .multiple {
-        padding: 4.5em 0 0;
 
         fieldset {
             padding-top: 0;
@@ -290,9 +294,9 @@
                 &:before {
                     position: relative;
                     padding: 0;
-                    line-height: 1.8em; // specific height required as parent 'a' has no height
+                    line-height: 1.7em; // specific height required as parent 'a' has no height
                     font-size: 1.4rem;
-                    width: 1.8em;
+                    width: 1.85em;
                     background-color: $color-salmon;
                 }
 
@@ -481,7 +485,6 @@ footer .preview {
         &.full {
             fieldset {
                 @include column(11);
-                margin-left: -51px;
                 padding: 3.2em 0 0;
             }
 
