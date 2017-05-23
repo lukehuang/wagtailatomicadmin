@@ -120,9 +120,9 @@ select,
         border-radius: 0 6px 6px 0;
         z-index: 0;
         position: absolute;
-        right: 0;
+        right: 14px;
         top: 1px;
-        bottom: 0;
+        bottom: 1px;
         width: 1.5em;
         font-family: wagtail;
         content: 'q';
@@ -832,7 +832,7 @@ li.focused > .help {
         }
 
         &:before {
-            left: 0.3em;
+            left: 0.7em;
         }
 
         &:after {
@@ -909,8 +909,6 @@ li.focused > .help {
 .fields > li,
 .field-col {
     @include clearfix();
-    padding-top: 0.5em;
-    padding-bottom: 1.2em;
 }
 
 .field-row {
@@ -1189,10 +1187,6 @@ li.inline:first-child {
     }
 }
 
-.help {
-    @include transition(opacity 0.2s ease);
-}
-
 @media screen and (min-width: $breakpoint-mobile) {
     label {
         @include column(1.5);
@@ -1223,6 +1217,7 @@ li.inline:first-child {
 
     .help {
         opacity: 1;
+        padding-left: 1.5em;
     }
 
     .fields {
