@@ -1189,10 +1189,6 @@ li.inline:first-child {
     }
 }
 
-.help {
-    @include transition(opacity 0.2s ease);
-}
-
 @media screen and (min-width: $breakpoint-mobile) {
     label {
         @include column(1.5);
